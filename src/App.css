@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.appContainer {
+  margin: auto;
+
+  box-sizing: border-box;
+  background-image: url(./Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: center center;
+  width: 100%;
+  height: 180vh;
+  position: relative;
+}
+.Container {
+  background: #d9d9d9;
+
+  position: absolute;
+  right: 500px;
+  top: 100px;
+  border-radius: 10px;
+  padding: 15px;
+  border: 5px solid rgba(30, 89, 89, 0.763);
+  border-radius: 10px;
+
+  width: 30vw;
+}
+.HeaderConatainer {
+  width: 25vw;
+
+  margin: auto;
+
+  background-color: rgb(214, 217, 217);
+}
+.HeaderMain img {
+  color: black;
+  width: 200px;
+}
+.HeaderMain h1 {
+  font-size: 50px;
+}
+.HeaderMain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.HeaderButton button {
+  width: 26vw;
+  font-size: 26px;
+  background-color: rgb(30, 89, 89);
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+}
+.ShowtaskContainer {
+  width: 25vw;
+}
+
+.Task {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: start;
+}
+.Task input {
+  width: 26vw;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+.Task button {
+  background-color: rgb(163, 163, 72);
+  width: 30%;
+  height: 50px;
+  margin-left: 150px;
+
+  border-radius: 10px;
+}
+.listTaskContainer {
+  width: 26vw;
+  background-color: #93b0ab;
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.listTaskContainer {
+}
+.listTaskContainer .inputOutput {
+  font-size: 20px;
+}
+
+.listTaskContainer .dateOutput {
+  font-size: 14px;
+}
+
+.listTaskContainer img {
+  box-shadow: 2px 2px;
+  border: 2px solid rgb(118, 116, 116);
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #93b0ab;
+  position: fixed;
+  bottom: 0px;
+}
+.footerIcon {
+  font-size: 25px;
+}
+.footerIcon a {
+  margin-bottom: 10px;
+  margin-left: 30px;
+  color: rgb(50, 49, 49);
+}
+.footer p{
+  font-size: medium;
+}
