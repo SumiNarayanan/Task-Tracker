@@ -94,6 +94,7 @@
 
 .listTaskContainer .inputOutput {
   font-size: 20px;
+  text-align: start;
 }
 
 .listTaskContainer .dateOutput {
