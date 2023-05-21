@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Dog from "./Dog.svg";
 import ShowTask from "./ShowTask";
 import ListTask from "./ListTask";
-// import { Button } from 'react-bootstrap';
-// import './App.css';
+
 
 const Header = () => {
   const [showTask, SetShowTask] = useState(false);
@@ -19,15 +18,19 @@ const Header = () => {
     // },
   ]);
   const addTask = (title, date) => {
-    const newTask = [...task, { title }];
-    setTask(newTask);
+    const newTask = [...task,{ title, date }];
+    setTask( newTask);
   };
+
+ 
 
   const removeTask = (index) => {
     const newTask = [...task];
     newTask.splice(index, 1);
     setTask(newTask);
   };
+  
+
 
   const toggleTaskBar = () => {
     SetShowTask(!showTask);

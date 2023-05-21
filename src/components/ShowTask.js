@@ -35,7 +35,7 @@ const ShowTask = ({ addTask }) => {
             <h5>Date:</h5>
 
             <input
-              type="Date"
+              type="datetime-local"
               placeholder="Select date"
               value={date}
               onChange={(e) => setDate(e.target.value)}
